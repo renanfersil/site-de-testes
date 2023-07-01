@@ -14,28 +14,29 @@ h1 {
 
 .container {
   display: flex;
-  padding: 5vh;
   justify-content: center;
-  margin: 10vh;
+  height: 50vh;
+  width: 80vh;
   align-items: center;
   text-align: center;
   border-color: rgb(0, 0, 0);
   border-radius: 10px;
   box-shadow: 0 0 10px rgb(0, 0, 0);
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.3);
   background-size: cover;
   transition: all 0.2s ease;
   font-family: 'arial', sans-serif;
   }
 
   .container:hover {
-    padding: 7vh;
-    background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 50px 50px 10px rgba(0, 0, 0, 0.9);
+    width: 86vh;
+    height: 52vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 50px 30px 10px rgba(0, 0, 0, 0.9);
   }
 
 input {
-    width: 310px;
+    width: 320px;
     padding: 15px;
     background-color: transparent;
     text-align: left;
@@ -49,39 +50,40 @@ input {
       border-color: rgb(0, 0, 0);
     }
 
- fieldset {
-    width: 368px;
-    padding: 10px;
-    text-align: left;
-    align-items: center;
-    border: 2px solid #000000;
-    border-radius: 10px;
-  }
-  
-    ::placeholder {
-      color: black;
+    fieldset {
+      width: 280px;
+      padding: 26px;
       text-align: left;
+      align-items: center;
+      border: 2px solid #000000;
+      border-radius: 10px;
     }
+    
+      ::placeholder {
+        color: black;
+        text-align: left;
+      }
 
     button {
-      width: 30%;
-      height: 40px;
-      ;
+      width: 90px;
+      height: 30px;
+      align-items: center;
       background-color: black;
       color: rgb(255, 255, 255);
       border-radius: 10px;
+      border-color: rgb(0, 0, 0);
       border-style: double;
       cursor: pointer;
       transition: all 0.2s ease;
-      margin-top: 10px;
+      background: cover;
     }
     
     button:hover {
-      width: 32%;
-      background-color: transparent;
-      color: black;
+      width: 100px;
+      color: rgb(0, 0, 0);
+      background-color: transparent;        
     }
 
-a {
-  color: rgb(0, 0, 0);
-}
+    a {
+    color: rgb(0, 0, 0);
+    }

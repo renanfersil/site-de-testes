@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LOGIN</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <title>PÁGINA DE ACESSO</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  </head>
+  <body>
     <div class="container">
-      <form action="">
-        <h1>ACESSO DO CLIENTE</h1>
-        <div class="login">
-         <fieldset>
-         <legend>USUÁRIO</legend>
-        <input type="text" class="login" placeholder="Digite o usuário">
-        </div>
-  <br>
-        <div class="password">
+        <form class="login">
+          <h1>ACESSO DO CLIENTE</h1>
           <fieldset>
-          <legend>SENHA</legend>
-         <input type="password" 
-                placeholder="Digite a senha" 
-                pattern="[0-9a-z-A-Z]{4,8}">
-        </div> 
-  <br>
-        <div>
-        <button class="submit">ENTRAR</button>
+            <legend>USUÁRIO / SENHA</legend>
+          <div class="login__field">
+            <i class="login__icon fas fa-user"></i>
+            <input type="text" class="login__input" placeholder="Digite o seu usuário">
+          </div>
+          <br>
+          <div class="login__field">
+            <i class="login__icon fas fa-lock"></i>
+            <input type="password" class="login__input" placeholder="Digite a sua senha">
+          </div>
+        </fieldset>
+          <br>
+          <button class="button login__submit">
+            <span class="button__text">ENTRE</span>
+            <i class="button__icon fas fa-chevron-right"></i>
+          </button>				
         <p>
-        <a href="../redefinição de senha/redefinir.html">Redefinir senha</a>
-        <a>ou</a>
-        <a href="../cadastro/cadastro.html">Cadastre-se</a>
-        </div>
-      </form> 
-    </div>    
-</body>
+        <button class="gmail-btn">
+            <i class="fab fa-google"></i> Gmail</button>
+        <button class="facebook-btn">
+            <i class="fab fa-facebook-f"></i> Facebook</button>
+            <p>
+            <a href="../cadastro/cadastro.html">Cadastre-se</a>
+            <hr>
+        </p>
+        <a>Esqueceu a senha?</a>
+        <a href="../redefinição de senha/redefinir.html">Clique aqui</a>
+      </form>
+      </body>
+    </div>
+  </body>
+  <script src="script.js"></script>
 </html>

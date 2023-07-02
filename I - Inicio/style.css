@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+}
+
+header {
+  background-image: url("https://img.freepik.com/fotos-premium/terra-no-fundo-do-banner-horizontal-com-espaco-de-texto-mostra-o-mapa-do-mundo-da-america-meio-ambiente-do-dia-da-terra_45716-78.jpg?w=996");
+  background-position: center;
+  background-size: cover;
+  padding: 40px;
+  margin: 2px;
+  width: auto;
+  height: auto;
+  align-items: center;
+  text-align: left;
+  color: white;
+}
+
+nav {
+  color: white;
+}
+
+.container {
+  display: flex;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  align-items: right;
+  text-align: left;
+  width: auto;
+  height: auto;
+  margin: 2px;
+}
+
+.imagem {
+  position: absolute;
+  left: 50%;
+  width: 30%;
+  height: 50%;
+  margin: 2px;
+}
+
+footer {
+  position: relative;
+  background-color: #ffffff;
+  padding: 20px;
+  background-color: rgb(0, 140, 255);
+  text-align: center;
+  margin-top: 1000px;
+}

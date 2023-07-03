@@ -15,35 +15,53 @@ header {
   color: white;
 }
 
+h1 {
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
 nav {
   color: white;
+  text-align: center;
 }
 
 .container {
   display: flex;
   color: white;
   background-color: black;
-  padding: 20px;
-  align-items: right;
+  background-position: center;
+  background-size: cover;
+  padding: 2px;
+  align-items: center;
   text-align: left;
   width: auto;
   height: auto;
-  margin: 2px;
+  margin-top: 100px;
 }
 
-.imagem {
-  position: absolute;
-  left: 50%;
-  width: 30%;
-  height: 50%;
-  margin: 2px;
+.text {
+  flex: 1;
+  padding: 20px;
+}
+
+.imagem img {
+  flex: 1;
+  text-align: center;
+  max-width: 100%;
+  height: 80vh;
 }
 
 footer {
-  position: relative;
-  background-color: #ffffff;
-  padding: 20px;
-  background-color: rgb(0, 140, 255);
+  background-image: url("https://img.elo7.com.br/product/zoom/2C4E53D/mapa-mundi-em-cortica-5mm-divisoes-paises-150cm.jpg");
+  margin-top: 100px;
+  background-position: center;
+  background-size: cover;
+  padding: 40px;
+  width: auto;
+  height: auto;
+  align-items: center;
   text-align: center;
-  margin-top: 1000px;
+  color: rgb(0, 0, 0);
+}
+
+a {
+  color: rgb(255, 255, 255);
 }

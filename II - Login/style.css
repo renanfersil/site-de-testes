@@ -3,7 +3,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url("https://images.unsplash.com/photo-1687201364205-6ec23f194c9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80");
+    background-image: url("https://img.elo7.com.br/product/zoom/2C4E53D/mapa-mundi-em-cortica-5mm-divisoes-paises-150cm.jpg");
     background-size: cover;
     font-family: 'arial', sans-serif;
   }
@@ -34,7 +34,7 @@ body {
     }
   
   input {
-      width: 260px;
+      width: 280px;
       padding: 15px;
       background-color: transparent;
       text-align: left;

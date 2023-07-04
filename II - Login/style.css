@@ -3,6 +3,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    /* background-image: url("../utilitários/mapa.jpg");*/
     background-image: url("https://img.elo7.com.br/product/zoom/2C4E53D/mapa-mundi-em-cortica-5mm-divisoes-paises-150cm.jpg");
     background-size: cover;
     font-family: 'arial', sans-serif;
@@ -14,9 +15,9 @@ body {
   
   .container {
     display: flex;
-    padding: 5vh;
     justify-content: center;
-    height: 80vh;
+    height: 78vh;
+    width: 44vh;
     align-items: center;
     text-align: center;
     border-color: rgb(0, 0, 0);
@@ -28,13 +29,14 @@ body {
     }
   
     .container:hover {
-      padding: 7vh;
+      width: 48vh;
+      height: 84vh;
       background-color: rgb( 255, 255, 255, 0.8);
-      box-shadow: 40px 20px 2px rgba(0, 0, 0, 0.9);
+      box-shadow: 40px 30px 2px rgba(0, 0, 0, 0.9);
     }
   
   input {
-      width: 280px;
+      width: 260px;
       padding: 15px;
       background-color: transparent;
       text-align: left;

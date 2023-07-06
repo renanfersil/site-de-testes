@@ -4,8 +4,7 @@ body {
     justify-content: center;
     height: 100vh;
     color: rgb(0, 0, 0);
-    /* background-image: url("../utilitários/mapa.jpg");*/
-    background-image: url("https://img.elo7.com.br/product/zoom/2C4E53D/mapa-mundi-em-cortica-5mm-divisoes-paises-150cm.jpg");
+    background-image: url("../X-imagens/mapa.jpg");
     background-size: cover;
     font-family: 'Arial' sans-serif; 
 }

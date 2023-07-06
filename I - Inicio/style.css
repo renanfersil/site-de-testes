@@ -16,7 +16,7 @@ header {
 }
 
 h1 {
-  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
 nav {
   color: white;
